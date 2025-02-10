@@ -1,3 +1,7 @@
 Day 1: 6/01/2025
 
 Learn:
+Learned how to push and commit into git
+
+Day 2:7/01/2025
+Learn:
