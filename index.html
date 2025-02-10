@@ -3,45 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Homepage</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Professional Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Homepage</h1>
+    <header class="fade-in">
+        <div class="container">
+            <h1>Welcome to Our Homepage</h1>
+            <p>Transforming ideas into digital excellence. Let's build something amazing together!</p>
+            <a href="#about" class="cta-btn">Learn More</a>
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <nav class="slide-in">
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <section id="home">
-        <h2>Home Section</h2>
-        <p>This is the homepage content.</p>
+    <section id="home" class="intro">
+        <div class="container">
+            <h2>Your Digital Partner</h2>
+            <p>Our services help businesses grow by improving technology to reach their full potential.</p>
+            <a href="#services" class="cta-btn">Explore Our Services</a>
+        </div>
     </section>
 
-    <section id="about">
-        <h2>About Section</h2>
-        <p>Learn more about us here.</p>
+    <section id="about" class="light-bg fade-in">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a passionate and dynamic team of experts committed to transforming digital landscapes. With years of experience, we specialize in creating innovative and tailored digital solutions for businesses across various industries. Our focus is on building long-term relationships with clients by delivering exceptional, customized digital experiences.</p>
+            
+            <h3>Our Mission</h3>
+            <p>Our mission is to empower businesses to achieve their fullest potential through innovative design, development, and strategy. We believe in delivering excellence at every stage of the project to ensure our clients' success.</p>
+
+            <h3>Our Vision</h3>
+            <p>To be a leading digital agency known for delivering impactful solutions that elevate brands and drive growth in the ever-evolving digital landscape.</p>
+
+            <!-- <h3>Our Values</h3>
+            <ul>
+                <li><strong>Innovation:</strong> We constantly push the boundaries of design and technology to stay ahead of trends.</li>
+                <li><strong>Integrity:</strong> We are honest and transparent in all of our dealings, ensuring the highest quality of work.</li>
+                <li><strong>Collaboration:</strong> We believe in working closely with our clients to understand their needs and deliver results that exceed expectations.</li>
+                <li><strong>Excellence:</strong> We strive for perfection in everything we do and are committed to delivering the best results every time.</li>
+            </ul> -->
+        </div>
     </section>
 
-    <section id="services">
-        <h2>Services Section</h2>
-        <p>Explore the services we offer.</p>
+    <section id="services" class="fade-in">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Design & Development</h3>
+                    <p>We create visually appealing and functional websites tailored to your business. Our web design services ensure that your site is responsive, user-friendly, and optimized for performance. From front-end to back-end development, we offer a complete solution to give your business an online presence that stands out.</p>
+                    <ul>
+                        <li>Custom Website Design</li>
+                        <li>Responsive Design for Mobile & Desktop</li>
+                        <li>HTML, CSS, JavaScript Development</li>
+                        <li>Content Management Systems (CMS)</li>
+                    </ul>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-search"></i>
+                    <h3>SEO Optimization</h3>
+                    <p>Our SEO services improve your website’s visibility, drive organic traffic, and increase your search engine rankings. With proven techniques and strategies, we make sure your website is optimized to reach its full potential on Google and other search engines, ensuring your brand stands out from the competition.</p>
+                    <ul>
+                        <li>On-Page & Off-Page SEO</li>
+                        <li>Keyword Research & Strategy</li>
+                        <li>Content Optimization</li>
+                        <li>Link Building & Backlinks</li>
+                    </ul>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Graphic Design</h3>
+                    <p>Our graphic design services will help your brand communicate its message clearly and effectively through visual content. From logo creation to marketing materials and digital media, we craft compelling designs that convey your brand’s identity and capture the attention of your audience.</p>
+                    <ul>
+                        <li>Brand Identity & Logo Design</li>
+                        <li>Print Design (Flyers, Brochures, etc.)</li>
+                        <li>Social Media Graphics</li>
+                        <li>Website & App Design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="service-grid">
+                <div class="service-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile App Development</h3>
+                    <p>We specialize in building mobile apps for both iOS and Android that offer seamless experiences to users. Our app development process focuses on delivering high-performance, feature-rich apps that are aligned with your business objectives, and help you connect with your audience on mobile platforms.</p>
+                    <ul>
+                        <li>Native iOS & Android Apps</li>
+                        <li>Cross-Platform App Development</li>
+                        <li>User Experience & Interface Design</li>
+                        <li>App Maintenance & Updates</li>
+                    </ul>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Digital Marketing</h3>
+                    <p>Our digital marketing services focus on driving growth and engagement for your brand through data-driven campaigns. We help you build your online presence with social media marketing, content strategies, paid advertising, and email marketing. We work with you to create personalized strategies that maximize ROI.</p>
+                    <ul>
+                        <li>Social Media Marketing & Management</li>
+                        <li>Pay-Per-Click (PPC) Advertising</li>
+                        <li>Email Marketing Campaigns</li>
+                        <li>Content Strategy & Creation</li>
+                    </ul>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-cogs"></i>
+                    <h3>IT Consulting</h3>
+                    <p>We provide expert IT consulting services to help businesses improve their operations, reduce costs, and enhance their efficiency. Our team works with you to develop custom IT solutions tailored to your needs, ensuring you get the most out of your technology investments.</p>
+                    <ul>
+                        <li>Infrastructure & Cloud Solutions</li>
+                        <li>Business IT Strategy</li>
+                        <li>Technology Integration</li>
+                        <li>Data Management & Security</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Section</h2>
-        <p>Get in touch with us!</p>
+    <section id="contact" class="light-bg fade-in">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you're ready to take the next step in your digital journey, get in touch with us. We look forward to collaborating with you!</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
     </section>
 
-    <footer>
-        <p>© 2025 My Simple Homepage</p>
+    <footer class="fade-in">
+        <div class="container">
+            <p>© 2025  Homepage | Crafted with passion</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="newsletter">
+                <input type="email" placeholder="Subscribe for updates...">
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

@@ -2,6 +2,20 @@ Day 1: 6/01/2025
 
 Learn:
 Learned how to push and commit into git
+challenges:nothing much
+--commit--
 
 Day 2:7/01/2025
-Learn:
+Learn:Learned to create a web page with basic details 
+challenges:some css styles commands were confusing first then learned it with reference
+--commit--
+
+Day 3:8/01/2025
+learn:Made more designs into the webpage to make it look better
+challenges:Had some confusions with designs and then checked resorces to make them better
+--commit--
+
+Day 4:9/01/2025
+learn:Made an intresting webpage with a simple design 
+challenges:had some issues with the alignment and borders and then corrected it to order and finished the work
+--commit--
